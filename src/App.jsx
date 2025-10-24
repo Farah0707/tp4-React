@@ -16,6 +16,7 @@ export default App;
 */
 
 /*exercice 2 */
+/*
 import React, { useState, createContext, useContext } from "react";
 
 const ThemeContext = createContext();
@@ -60,6 +61,22 @@ function App() {
     <ThemeProvider>
       <ThemeToggle />
     </ThemeProvider>
+  );
+}
+
+export default App;
+*/
+
+/*exercice 3 */
+import React from "react";
+import UserList from "./UserList";
+
+function App() {
+  return (
+    <div>
+      <h1>TP - Appel API avec useEffect</h1>
+      <UserList />
+    </div>
   );
 }
 
